@@ -1,0 +1,460 @@
+{"intents":[
+  {
+    "tag": "self_intro",
+    "patterns": [
+      "What is your name",
+      "may I know you",
+      "tell me about yourself",
+      "can you help me to contact consultant",
+      "i am looking for immigration visa consultancy",
+      "i am looking for ielts coaching classes",
+      "i am looking for ielts classes"
+    ],
+    "responses": [
+      "Myself is Mr.Consultant. I guide you step-by-step to decide next steps towards your immigration study/ visa consultancy.\n Tell me which "
+    ]
+  },
+  {
+    "tag": "book_appointment",
+    "patterns": [
+      "i want to book appointment",
+      "can you help me to book an appointment",
+      "how can i book appointment",
+      "how can i take appointment",
+      "how can i register myself for appointment",
+      "can i have an appointment",
+      "can i talk to somebody in-person",
+      "can i talk to someone in-person",
+      "can i talk to team",
+      "i want to book an air ticket"
+    ],
+    "responses": [
+      "Sure, I'd love to help you. Here's link to book yourself: shorturl.at/rCQY3 | Our Team will contact you soon. :)",
+      "Definitely, I'm here to guide you. Here's link to book yourself: shorturl.at/rCQY3 | Our Team will contact you soon. :)"
+    ]
+  },
+  {
+    "tag": "intro_post_visa_service",
+    "patterns": [
+      "QUE"
+    ],
+    "responses": [
+      "Sure, I'd love to help you. Here's link to book youself: shorturl.at/rCQY3 | Our Team will contact you soon. :)",
+      "Definitely, I'm here to guide you. Here's link to book youself: shorturl.at/rCQY3 | Our Team will contact you soon. :)"
+    ]
+  },
+  {
+    "tag": "air_tickets",
+    "patterns": [
+      "can you help me to get air tickets at low price",
+      "do you offer flight tickets at low cost",
+      "do you offer flight tickets at cheaper price",
+      "do you offer flight tickets at cost-effective",
+      "can you help me to get flight tickets at low price",
+      "what about flight tickets",
+      "I want cheaper flight tickets",
+      "can you help me to get discount into flight tickets",
+      "can you help me to get discount into air tickets",
+      "can you help me to get discount into flight"
+    ],
+    "responses": [
+      "Indeed, Rao consultancy provides cost-effective deals and discount for air tickets/ flight. We understand your flight should be secure and inexpensive. We make sure flight booking by picking up early discounts and deals. Any Questions? I'll love to hear you.",
+      "Yes, Rao consultancy provides cost-effective deals and discount for air tickets/ flight. We understand that you will be needing a lot of luggage, We make sure your flight should be secure and inexpensive. Any Questions? I'll love to hear you."
+    ]
+  },
+  {
+    "tag": "travel_health_insurance",
+    "patterns": [
+      "can you help me to do insurance of health and travelling",
+      "do you offer insurance policy for health and travel",
+      "i want to insurance my health before travelling",
+      "i want to do medi-claim before flight",
+      "what about insurances",
+      "which type of insurances you provide",
+      "what kind of insurance policy for me",
+      "what kind of insurance policy for health"
+    ],
+    "responses": [
+      "Don't worry, We care family and you first. We are well-connected with registered insurance officials, agents who provide authentic insurance options. Facing medical issues abroad can be very expensive, treatments and health related services are always on the higher cost bracket. There are also insurance schemes to ensure that you are covered for baggage loss. The key here is to find the right kind of policy and we help our clients find exactly that. You need to request us to book appointment. I'd love to solve queries, How can I help you?",
+      "No worries, We care family's safety first. We are well-connected with registered insurance officials, agents who provide authentic insurance options. Facing medical issues abroad can be very expensive, treatments and health related services are always on the higher cost bracket. There are also insurance schemes to ensure that you are covered for baggage loss. The key here is to find the right kind of policy and we help our clients find exactly that. You need to request us to book appointment. I'd love to solve queries, How can I help you?"
+    ]
+  },
+  {
+    "tag": "foreign_exchange",
+    "patterns": [
+      "i need to exchange currency dealer",
+      "can you help me to find currency exchanger",
+      "foreign exchange currency",
+      "what about currency exchange",
+      "what about currency conversion",
+      "what about money conversion"
+    ],
+    "responses": [
+      "Absolutely, We make your convenience our top priority. I can help you with all your foreign currency transactions through Rao Forex. This makes sure that you have some cash on hand to pay your fees and do other transactions smoothly and simply. Our priority is simple, we want to make every step of the immigration process simple for our clients. It is also essential that you keep your bank account credited with a specific sum of the required currency. You need to request us to book appointment. Something else in mind? I'll love to hear you.",
+      "Certainly, We make your convenience our top priority. I can help you with all your foreign currency transactions through Rao Forex. This makes sure that you have some cash on hand to pay your fees and do other transactions smoothly and simply. Our priority is simple, we want to make every step of the immigration process simple for our clients. It is also essential that you keep your bank account credited with a specific sum of the required currency. You need to request us to book appointment. Something else in mind? I'll love to hear you."
+    ]
+  },
+  {
+    "tag": "accommodation",
+    "patterns": [
+      "can you help me in accommodation",
+      "do you offer accommodation",
+      "do you offer cost-effective accommodation",
+      "what about accommodation",
+      "do you offer off-campus accommodation",
+      "can you help me arrange to my stay.",
+      "can you help me arrange to my stay with cheaper price.",
+      "can you help me arrange breakfast and dinner",
+      "can you your accommodation provider offer breakfast and dinner."
+    ],
+    "responses": [
+      "Yes, dear. We're with you. Usually universities and colleges provide on-campus accommodation, but it may sometimes be difficult to arrange.  At Rao Consultants, we make arrangements for your stay. Finding them before you reach the destination country, however, may be difficult. Which is why we have made associations with various accommodation providers who can help you select a place to stay. They are available with breakfast options or you could opt for a self-catering options.",
+      "Yeah, dear. We're with you. Usually universities and colleges provide on-campus accommodation, but it may sometimes be difficult to arrange. At Rao Consultants, we make arrangements for your stay. Finding them before you reach the destination country, however, may be difficult. Which is why we have made associations with various accommodation providers who can help you select a place to stay. They are available with breakfast options or you could opt for a self-catering options."
+    ]
+  },
+
+  {"tag": "greeting",
+    "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+    "responses": ["Hello how can I help you?", "Hi there, how can I help?"],
+    "context": [""]
+  },
+  {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+  },
+  {"tag":"timing",
+    "patterns":["what is the timing?","When its open?","when it is closed","what is opening time?","are you open today?","what are hours?","how late are you open?"],
+    "responses":["We are open from Morning 9 to Evening 7! Come Visit us.","We are available from 9 A.M to 9 P.M!"],
+    "context":[""]
+  },
+
+
+  {"tag":"overall_country_selection",
+    "patterns":["How to choose a country for a education?","which country is best for education?","which country is good for abroad study?"],
+    "responses":["There are 6 Essential ways to Decide, \n 1.Select your desired disciplin. \n 2.Decide where you'd like to study. \n 3.Use the best search engine for International degrees. \n 4.Check the international University Ranking. \n 5.Research the most affordable Degrees. \n 6.Find Other's Experience. "],
+    "context":[""]
+  },
+  {
+    "tag":"overall_test_country",
+    "patterns":["what test are required for which country?","which are the exam for study in abroad?"],
+    "responses":["The test requirements are different for different countries. The most widely accepted worldwide tests are IELTS, TOEFL, PTE, GMAT, GRE and SAT. These tests are conducted with the intention to test the proficiency of the applicant and their aptitude. \n Australia – IELTS, PTE, TOEFL \n New Zealand – IELTS, PTE \n United States of America – GRE, GMAT, SAT, TOEFL, IELTS\n Canada – IELTS, TOEFL\n Unite Kingdom – IELTS -UKVI, PTE\n There are some countries which do not require these tests, but there may be universities and institutions in the country which require these tests. We advise the students on which exams to appear for depending upon the institutions they want admission in and the country they want to study in."],
+    "context":[""]
+  },
+  {
+    "tag":"overall_cost",
+    "patterns":["what is the cost of studying abroad?","what is the total cost for foreign education?"],
+    "responses":["The cost of studying abroad can be divided into two basic costs:\n  Tuition fees\n  Cost of living\nThe cost of living includes food, accommodation, transportation and lifestyle needs. The tuition costs for each country are different, different institutions in the same country also have different fee structures. Public institutions in some countries have nominal fees while private institutions may charge a higher tuition, however, this is not always the case. Some countries also offer considerable subsidies to students while others have generous grants and scholarships available for the taking. We, at Rao Consultants ensure that our students are completely informed about the costs they will face and the subsidy/scholarship options available to them."],
+    "context":[""]
+  },
+  {
+    "tag":"overall_accommodation",
+    "patterns":["How do I find accommodation abroad?","what about the accommodation in foreign?"],
+    "responses":["There are many colleges and universities that generally offer on-campus accommodation. Hostels are available to students on a first-come-first-serve basis. Students can choose to stay on-campus or find an accommodation outside college. It is, however, more advisable for students to pick accommodation on-campus during the initial days as it makes assimilating in the new environment that much easier. It also saves a lot of time and money on commute and is a convenient place to make new connections. Most countries are quite convenient in terms of finding shared accommodations for students. Shared furnished apartments, off-campus hostels, are just a couple of examples. These spaces can have attached kitchens/meal plans for your added convenience. We, at Rao Consultants, also can help you find out convenient accommodation options for you to live at during your initial days."],
+    "context":[""]
+  },
+  {
+    "tag":"overall_work",
+    "patterns":["Is It possible to work while studying in abroad?","job in foreign while studying?"],
+    "responses":["Most countries allow international students to work part-time while they are studying there. On a standard basis countries allow students to work 15-20 hours per week on a part-time basis and full-time during the vacations. Some countries offer different rules of work according to the type of course or institutions. For example, college students in the UK are not allowed to work but university students are allowed. Another example is medical students in Philippines are not allowed to work part time but students studying other courses are allowed to do so."],
+    "context":[""]
+  },
+  {
+    "tag":"overall_language",
+    "patterns":["will I need to learn another language for study in abroad?","another language for study?"],
+    "responses":["Most countries run the prime courses on offer in the English language. It is, however, always good for a student to immerse himself/herself in the culture of the country. For this reason learning the local language, or the most popular language in the country, can be the best possible way. In countries like Germany, speaking German can open options for you not really in your career but also in terms of some very interesting courses. Some of the most popular language spoken around the world are:\n  French\n  Italian\n  Spanish\n  German\n  Portuguese"],
+    "context":[""]
+  },
+  {
+    "tag":"overall_job_visa",
+    "patterns":["will I get a post study work visa or job search visa after my education in foreign?","Visa after education in abroad?"],
+    "responses":["Students get post-study work visa or job search visa depending upon the course they are doing, its duration and the country.\n  USA – You can get a 1 year optional practical training period after studying in a US education institution.\n  Australia – Rules in Australia allow for 2 years of job search visa after you have concluded your education.\n  Canada – Depending upon the duration of your course you can get a 1 to 3 years job search visa after your education.\n  New Zealand – You can get a 1 year job search visa after you have finished your course.\n  Ireland – Irish laws allow for a 1 year job search visa after study.\n  Germany – In Germany you can get up to 1 to 1.5 years of job search opportunities after finishing your education."],
+    "context":[""]
+  },
+  {
+    "tag":"overall_loan",
+    "patterns":["Can I take education loan for my study in abroad?","loan for foreign study?"],
+    "responses":["Yes, taking a bank loan is one of the most common means of funding one’s foreign education. Students can apply for financial aid to pay the fees and living expenses associated with studying abroad. Most nationalized and multinational banks provide education loans to students. The processing time is quite rapid depending on the student’s eligibility and have highly affordable rates."],
+    "context":[""]
+  },
+  {
+    "tag":"overall_spouse",
+    "patterns":["Can I bring my spouse as a dependent with me when i'm studying?","bring someone with me?"],
+    "responses":["Most countries usually allow students to bring over their dependents when they are studying. The visa of their dependent or spouse will depend upon their credentials and the country you are going to. "],
+    "context":[""]
+  },
+
+
+  {
+    "tag":"canada_study",
+    "patterns":["why study in canada?","canada is good for study in abroad?"],
+    "responses":["Canada is rapidly becoming the country of choice among international students. Almost 200,000 students flock to Canada to make the most of its amazing education system every year. It is important to note that Canada spends more per capita on its education system than any other associated with Organization for Economic Cooperation and Development. Education credentials earned from Canadian institutes are recognized the world over.\nCanadian universities and education institutions offered some well-tailored programmes in a variety of fields. The courses may differ slightly from institute to institute but all in all these courses aim to provide comprehensive support and peerless teaching and training to students that enrol with them. A delightful little factoid that is really attractive to most students is that 90% of students who graduate from Canadian institutes get employed in their fields within 6 months of graduation.\nWith over 200 institutions around the country, there are a number of specializations on offer. The courses are relatively cheaper than the US and the slow rate of inflation ensures that the cost of living too isn’t too high. International students are given a number of facilities by universities from student clubs to academic advisors, no stones are left unturned to provide them the support they need. International students are also allowed to work for stipulated hours during their course and full time during the holidays.\nCanada’s rich culture, which has been fed by a strong stream of immigrants over the years, is a great place to study. It provides ample time for learning and leisure in equal measure. It has numerous avenues for indulging in one’s love for art, sports or music. Studying here will give you innumerable opportunities for meeting like-minded people and get the required life experience before plunging into the professional world.\nStudents who are studying in Canada for a one year course are given one year to work in Canada. While students who enrol in courses of 2 years are given 2-3 years to work in the country. This additional time is a huge benefit for students. Moreover you can also apply for permanent residency of Canada while working in Canada. If you have a PR then you can apply for a Canadian citizenship within 3 years. With Canada being a safe, economically strong country, it is not a surprise that so many students are eager to make Canada their education destination."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_education_system",
+    "patterns":["what is the education system of canada?","what are the courses in canada?"],
+    "responses":["Canada stands head and shoulder above other countries in terms of its per capita spending on post-secondary education. The education system of Canada is divided in 3 sections – Elementary, Secondary and Post-Secondary. There is no real federal system of education in Canada. The Education in this country is under the jurisdiction of the provinces and territories. Canada’s exemplary commitment to education is showcased by the fact that public education here is free till the secondary school.\n\nEducation after secondary school are either community colleges or universities. In post-secondary section education institutes are divided into the following brackets: \nCertificate – These courses are about a year in length. \nDiploma – These courses are two years in length.\nAdvanced Diploma – A 3 year programme which can also open the door to a bachelor’s degree.\nPost Graduate Diplomas/Certificates – These programmes usually last for 12 to 17 weeks and are a gateway to a master’s degree. They provide practical experience and theoretical study and are sometimes a prerequisite to participate in a bachelor’s programme.\nBachelor’s Degree – Awarded by universities, colleges and community colleges after four years of study and are usually followed with graduate level studies. \nMaster’s Degree – Graduates who want to pursue learning and research in their field and increase the scope of occupation after education, usually go for master’s degree. These degrees are usually 2 years long and are usually done after a 4 year or 3 year bachelor programme. \nDoctorate or PhD – Ranking above the master degree it generally takes about 4 to 7 years to finish.\nThese courses in the various colleges, universities and education institutes in Canada provide students with ample opportunities to broaden their educational horizons. The degrees obtained here are considered at par with US universities and that of other commonwealth countries."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_application",
+    "patterns":["how can i apply for canada study?","what are the requirement for study in canada? "],
+    "responses":["If a student wants to study in Canada he or she better start preparing for it a year in advance. A major intake for Canadian education institutes is usually in September, or fall. There is another intake in January as well for winter but that is usually dependent on the program a student is opting for and the institution he or she is applying for. There are a select few institutes that also have a May intake. \n\nFluency in English is a major prerequisite for applying for education to Canadian institutions. Every international student is required to take the IELTS or TOEFL exams. An IELTS score of 6.0  to 6.5 for undergraduates and 6.5 to 7.0 for postgraduate courses are required. A TOEFL score of 80 and above for undergraduates and 90 and above for postgraduate courses is necessary. \n\nAdvanced diploma, diploma or certificate programmes usually require students to have a higher second class in their HSC examinations. Bachelor degrees require a first class in HSC examinations while postgraduate certificate or diplomas require a higher second class in a bachelor course of three or four years previously undertaken. A masters degree usually requires a first class in bachelors degree, if the course is of four years. If the course is of three years a one year masters degree is required."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_cost",
+    "patterns":["what will be the minimum cost for study in canada?","what will be the cost of expenses in canada?"],
+    "responses":["Canadian colleges, universities and institutes offer course fees that are lower than many other countries, especially the US. Canadian education institutes receive grants from their respective provincial governments. This works for the students’ benefit in two ways, it helps them get education at the highest standards and also offsets the institution’s costs thus making education cheaper. \n\nTuition fees for Canadian education institutions vary from course to course and among different organisations as well. An average cost of education can range from $12,000 to $40,000 (Canadian dollars). Over and above tuition fees the international student application fees cost something around $250, there are also student services fees that range from $500 to $1000 along with a $150 charge for study permit with a biometric processing fee of $85.\n\nThere is also the question of living expenses when studying abroad. Rent prices in Canada vary from town to town and can range from $500 to $1500 per month. There will also be additional costs of electricity, phone, internet and cable television among others. Students usually share apartments to reduce the load of the rent they are facing. There is also the additional cost of transportation, buying a car may be a little expensive, monthly passes for public transportation can range from $80 to $110. Public transport also has a lot of discounts a student can avail of. International students are also expected to have health insurance when they are studying in Canada. The coverage for these insurance policies range from province to province."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_student_visa",
+    "patterns":["student visa for study in canada?"],
+    "responses":["A Canadian study permit is essential for anyone who wants to study in Canada. This study permit functions as a student visa for the duration of your stay. If your course lasts for less than six months you do not need a student visa, however, any course longer than that requires a student visa. But if you are planning on studying further after those six months then it might be a good idea to apply for a student visa from the outset. \n\nIf you have a Canadian study permit you can renew it while staying in Canada itself. This kind of a work permit will also allow you to work part-time on-campus. It may also allow you to work off-campus or as an intern as a part of your programme. It is important to note that online applications for student visas are twice as fast as paper applications.\n\nVisa applications will require a health check-up and a police clearance certificate. The timelines on student visas, or any visas for that matter, are quite strict and may need you to have all your documents handy beforehand. International students are also expected to show proof of funds. 10,000 Canadian dollars is the amount that is required for a year’s worth of stay in Canada needs to be in your name. Quebec requires the proof of funds to be $11,000 instead of ten thousand."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_employment",
+    "patterns":["work in canada after study?","job in canada?"],
+    "responses":["Work permits for international students are a big attraction for most aspirants. A 2 year course allows you a work permit of 3 years, while a one year course allows you a permit of one year. There are not restriction on the kind of employment that you may get after your graduation. \n\nCanada is a leader in modern technology. It leads in the field of Java programming, networking, wireless communications and computer technology. The fields of telecommunications, transportation, engineering and micro-electronics are just some of the most prominent industries of Canada. Companies like Black Berry, IMAX, Corel, etc. are famous around the world and are Canadian run. In fact 18 of the top 40 engineering faculties in Canada are found in Canada according to the Gourmand Report. \n\nMost students are also eligible for working while they are studying and this experience prepares them to be integrated into the workforce on graduating. Many education institutions also provide co-operative education opportunities which allow for alternating periods of work and study. This helps students not only get a handle on their education requirements but also keep earning their livelihood while at it."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_ICCRC",
+    "patterns":["What is the ICCRC membership?","what is the ICCRC's importance?"],
+    "responses":["The Immigration Consultants of Canada Regulatory Council (ICCRC) is a non-profit organisation that is put in place by the Canadian government to regulate the immigration consulting profession. Rao Consultants are proud, longstanding members of the ICCRC. The Council safeguards the interests of the consumers by regulating and keeping tabs on the immigration consultants that provide immigration consultation to interested individuals. It should be noted, however, that it is not mandatory for students to apply via an ICCRC member."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_clg_university",
+    "patterns":["Is there a difference between a university and a college in Canada?"],
+    "responses":["Education institutions that are attended after at least 12 years of school or after secondary school are universities. These institutions usually lead to a degree and/or research. All Canadian Universities offer four year bachelors degree programs. A majority of them offer a one to two year of master’s degree while quite a few also offer doctoral and PhD programmes. Bachelor’s degrees, however, can be offered by universities, colleges and some other education institutions. Community colleges offer two year courses that are either technical or vocational. These courses can be used for a transfer to a university or can lead to a certificate or a diploma. These community colleges do not usually offer degree programs."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_work",
+    "patterns":["Can I work while I study in Canada?","how many hours I can work in canada?","what will be the salary in canada?"],
+    "responses":["You are, under certain circumstances, allowed to work while studying in Canada. When you are applying for your student visa, however, you are required to prove to your visa officer that you have enough finances to support yourself for the duration of your study program. International students are allowed to work on the campus or off-campus, although off-campus is authorized only 6 months into the course.\nFull time students can work in their institutions without any employment authorization. International students are allowed to work up to 20 hours every week when their course is on and 40 hours per week during their vacations. They can expect to earn around 7 to 10 Canadian dollars per hour. During co-op terms students can earn up to 10 to 15 Canadian dollars an hour. This can amount to about 400 to 1000 Canadian dollars every month."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_diploma",
+    "patterns":["Is there any value to doing a diploma in Canada?","Can i do diploma course in canada?","Is canada is good for diploma course?"],
+    "responses":["Yes. Canada offers a huge array of career-oriented programs. These range from advanced diplomas to certificate courses. These courses are specifically designed so as to give students the opportunity to learn and develop skills that are marketable in the modern workplace. These courses highlight the technical aspects and focus on providing hands-on experience about the fundamental nitty-gritties of the programme. Diplomas and certificate courses offer students the practical background they need to become more hireable by employers in the country. It is very much a possibility that students that do vocational programmes get better salaries than those that have done a university programme."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_health_insurance",
+    "patterns":["Is health insurance mandatory in Canada?","health insurance"],
+    "responses":["Health insurance is mandatory for studying in Canada. You will need to procure health insurance before you reach Canada. Medical coverage changes from province to province and often from university to university. Most universities have health insurance coverage as a part of their fees."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_spouse",
+    "patterns":["Can I bring my spouse as a dependent with me when i'm studying?","Can a spouse be included in a student’s application?"],
+    "responses":["A valid study permit holder who is doing a full-time course at a post-secondary institution is eligible for an open work permit. The open work permit for a spouse or a common law partner may be valid for the same period of time as the study permit, or as long as the study permit remains valid. The applicant needs to indicate in their applications if their spouse or partner will be accompanying them to Canada. If the spouse or partner decides, at a later stage, to study in Canada they need to submit a separate application."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_work_after_graduation",
+    "patterns":["Can I work in Canada after graduation?"],
+    "responses":["Yes. If you have studied for a one year degree you get a one year work permit, if your course is of two years you can get a work permit for two to three years, depending upon your course and duration of the same."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_extension_visa",
+    "patterns":["Is it possible to gain an extension on my student permit?"],
+    "responses":["Yes you can, although you will need to contact your nearest Canadian Immigration Centre at least two months before your study permit authorization expires."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_dependent_child",
+    "patterns":["Does a dependent child who will be studying in Canada need a separate study permit?"],
+    "responses":["An individual who is already in Canada on a study or work permit will not need to get a separate study permit for his or her minor child. The study permit the individual has applied for should have already indicated that their minor child would be accompanying them. The age of majority differs slightly in different provinces, although it is usually around 18 or 19."],
+    "context":[""]
+  },
+  {
+    "tag":"canada_PR",
+    "patterns":["Are any immigration programmes open for international students hoping to settle permanently in Canada?","PR in canada?"],
+    "responses":["Education in Canada is often considered as a safe route to getting permanent residency of Canada. There are a number of federal and provincial programmes that offer international students a means to settle in Canada. This is possible even without a job offer. Canadian education and job experience usually gains you additional points on the Comprehensive Ranking System (CRS) used for Express Entry."],
+    "context":[""]
+  },
+
+
+  {
+    "tag":"usa_study",
+    "patterns":["why study in america?","why study in usa?","america is good for study?","USA is good for study?"],
+    "responses":["America has some of the most amazing education institutions in the world and its research facilities are second to none. The universities and colleges here regularly rank among the top 10, 50 and 100 of the world. Be it for science, technology or any other courses, they have some of the most experienced and credible faculties and teachers in the world. Graduate students here get the opportunity to work with celebrated experts in their field and be a part of exclusive research.\n\nStudents doing their post-graduate degree also have the option of earning while they learn. The universities provide a friendly and congenial environment perfectly tailored for learning. There are over 3800 colleges and universities here and they adhere to high standards of learning facilities and provide top-of-the-line materials and training. A number of companies make it a priority to recruit from the colleges in the USA. An education in this country not only ensures that you know exactly what you need to know about your chosen field, but also assures you of a comfortable job. This is exactly why a majority of students around the world choose to come to the USA to create a stellar future for themselves."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_education_system",
+    "patterns":["what is the education system of usa?","what are the courses in usa?","what is the education system of america?","what are the courses in america?"],
+    "responses":["The United States of America provides highly distinct and innovative education systems. It provides them a high quality of learning and research opportunities over and above recruitment support and network building opportunities. \n\nInternational students can apply for a four year undergraduate course and later continue with a two year masters program. International students, depending upon their credentials also can directly apply for their masters by research and/or their doctorate program. Be it studying engineering, science courses, humanities courses or even a doctoral thesis, USA provides some of the best education opportunities in the world."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_application",
+    "patterns":["how can i apply for usa study?","what are the requirement for study in usa?","how can i apply for america study?","what are the requirement for study in america?"],
+    "responses":["There are some basic common denominators in the application procedure for every university in the USA. Language proficiency tests like IELTS and TOEFL are some of the most important aspects of this application process. Those hoping to study in post graduate courses apart from MBA need to appear for GRE while those desirous of studying for an MBA need to appear for GMAT. \n\nUndergraduates need an IELTS score of 6.0 or a TOEFL IBT score of 79, while those applying for post graduate degrees need an IELTS score of 6.0 to 6.5 or a TOEFL IBT score of 90. Undergraduates need to appear for SAT in order to apply to graduate courses and they need a SAT score of over 1200. Post graduate aspirants need to appear for a GRE and need a mandatory score of 290-300. Those hoping to study for their MBA degree need to appear for GMAT and require a score of 450 to 500. \n\nThe application package needs to be sent to the universities strictly in accordance to their mandated guidelines. Academic performance records need to be provided in clear detail along with valid scores for all the necessary foreign going competitive examinations. There are two main intake sessions for universities in the USA – fall and spring. The fall intake starts in late August and ends in late December while the spring session starts in Jannuary and ends in early May. The deadlines for each intake are highly strict and need to be carefully monitored. Following the guidelines is crucial to obtain the requisite I-20 form from the respective universities."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_cost",
+    "patterns":["what will be the minimum cost for study in usa?","what will be the cost of expenses in usa?","what will be the minimum cost for study in america?","what will be the cost of expenses in america?"],
+    "responses":["Higher education costs in the USA, unlike India, can cost a pretty penny. Private universities in the USA usually charge a higher tuition fees than public colleges. Public colleges have a huge support in terms of their reliance on state funds. The higher costs charged by universities there is one of the reasons why they focus so much on the quality of education, infrastructure and career defining opportunities they provide the students. \n\nThe yearly expenditure for a student in a college in the USA, including living expenses and tuition, can range from $15,000 to $35,000. Top colleges can charge up to $60,000 per year in tuition and other ancillary costs. There are a number of scholarships which are also offered to foreign students based on merit and need. The application process for these scholarships may vary depending upon the university or state where the student is applying. These scholarships are usually government funded or even supported by private entities."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_student_visa",
+    "patterns":["student visa for study in usa?","student visa for study in america?"],
+    "responses":["A student visa is mandatory for a student aspiring to study in the USA. It is important to note that the student must be accepted and approved by the school or program they have applied for. The educational institution will provide the necessary documentation for the visa process. The application needs to be made within 120 days from the start date of the I-20 and can travel within 30 days from the start date of the I-20. \n\nA F-1 visa is the most common format of a student visa. If you are going to study at an approved school like a university, college, secondary school or even a language program, you need an F-1 visa. This format of visa is also required if you are enrolled in a course of study that takes up more than 18 hours per week. For those planning on joining a non-academic or vocational course in the USA then you may need an M-1 visa and not an F-1. US law does not permit an F-1 visa for students who are admitted in a publically funded adult education program."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_employment",
+    "patterns":["work in usa after study?","job in usa?","work in america after study?","job in america?"],
+    "responses":["Rules for students to work are strict in the USA. International students are not allowed to work during the first year in the country. The candidates can, however, get part-time jobs with special conditions after the first year. The United States Citizenship and Immigration Services (USCIS) has laid out strict guidelines for F-1 visa holders to get work in the US. On-campus employment continues to remain the best bet for international students and are easily available. These jobs may or may not be related to what you are studying.\n\nStudents can be allowed to work full-time during their breaks and holidays, provided they are on good terms with their faculty. A student can only work 20 hours a week. Another thing to take care is that the job must not take away a job from a US citizen. Optional Practical Training (OPT) or Curricular Practical Training (CPT) may also be applicable to you and will be closely governed by the USCIS.\n\nMost good universities also have a strong placement block which help students to get placed once they are done with their course. A student is also expected to build their network during their time at the college or university and find ideal employment opportunities for themselves. Finding a job in the US is all about being proactive. The country is a veritable hub of opportunities and nailing the right one is all a matter of focused effort and grabbing the chance when it appears."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_transfer_student",
+    "patterns":["what is transfer student in usa?","what is transfer student in america?"],
+    "responses":["Transfer students are those who have completed at least 2 years of their degree or diploma in any country and apply for a transfer to a US based university. The number of years that are waived off under this scheme depend on a number of factors. For starters it will depend on the courses covered in India and the grades for the same. It is rare for a student to get an exact transfer for the credits."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_top_ten_uni",
+    "patterns":["Is it okay for me to apply to only the top ten universities in usa?","Is it okay for me to apply to only the top ten universities in america?"],
+    "responses":["A student should keep in mind that the top ten universities have an acceptance ration of only 1% to 4%. A student should always try and improve their chances of admission. To be on the safer side it is important that the students should also apply to other universities offering good programs. The top ten universities always have incredibly stringent entry requirements. Students should keep in mind that rankings could be world-wide, region based or even subject/course based. It is important that, if a student is searching for a ranked university, they search for a university ranked by the course."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_mba",
+    "patterns":["can i get a direct admission in mba in usa?","can i get a direct admission in mba in america?"],
+    "responses":["American Universities usually require 16 years of education to gain an admission into an MBA or other graduation programme. Students are advised to complete a master’s degree of at least one year before taking admission in an American university. Some of the top ranked universities may give a student with 15 years of education admission provided they have 2 to 3 years of relevant work experience. Rao Consultants has a comprehensive list of universities and colleges that will enrol a student after 15 years of education directly or with work experience."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_school_shift",
+    "patterns":["In usa there is a possibility of shifting schools once I get there?","can I change school in usa?","In america there is a possibility of shifting schools once I get there?","can I change school in america ?"],
+    "responses":["As soon as you are in the US you are governed by the USCIS rule. This rule mandates that you cannot change the school before completing one semester at the school. Make your choice carefully to begin with in order to avoid problems at a later stage."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_TOFEL_or_IELTS",
+    "patterns":["Does the US only accept TOEFL scores or are IELTS scores valid as well?","Does the USA only accept TOEFL scores or are IELTS scores valid as well?","Does the america only accept TOEFL scores or are IELTS scores valid as well?"],
+    "responses":["A student can take the IELTS exam as well since over 2500 of the top universities have started accepting it as well."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_apply_time",
+    "patterns":["When is the ideal time to start applying to Universities?"," What are the different start dates?"],
+    "responses":["If a student is desirous of applying to universities in the US they need to start preparing for the same from a year in advance. This is very advantageous to students who want to apply for scholarships. The common intake dates are the Fall session in August/September and the Spring session in January/February."],
+    "context":[""]
+  },
+  {
+    "tag":"usa_work",
+    "patterns":["Can I work while I study in usa?","how many hours I can work in usa?","what will be the salary in usa?","Can I work while I study in america?","how many hours I can work in america?","what will be the salary in america?"],
+    "responses":["Students are only allowed to work 20 hours per week on-campus when the classes are on. They can work full-time during the vacation period."],
+    "context":[""]
+  },
+
+
+  {
+    "tag":"uk_study",
+    "patterns":["why study in uk?","why study in london?","UK is good for study?","london is good for study?"],
+    "responses":["The education system in the UK is considered as one of the most comprehensive in the world. It gives a great balance between academic and vocational courses that one may choose to study. The home of the English language, UK is the perfect setting to hone your linguistic skills and vastly improves your employment possibilities as well. Studying in the UK also offers a convenient gateway into Europe. UK finds  itself home to students from around the world including countries like China, Brazil, Australia, South Korea, and many other nations around the world. This makes it one of the most diversely populated spaces to study anywhere on the planet.\n\nThe UK provides an opportunity for students to interact with students of a variety of nationalities. Moreover, the courses in the UK tend to be shorter than in most places around the world. Undergraduate courses last for about 3 years while post graduate courses last for 1. This can help students save a lot of time and money that could be better spent elsewhere. Courses here also make it a point to provide students activities and societies which can provide them guidance and the opportunity to network. Guidance counselors and advisors in UK universities make it a point to ensure that the students feel welcome and comfortable.\n\nUniversities in the UK provide a wide selection of courses and disciplines that can appeal to a variety of passions and ambitions. From programming to ocean engineering to music design to women’s studies, there is no end to the kind of courses one can opt for here. Over 14,000 Indians go to study to the UK every year. It is little wonder that so many people in the world choose the UK as their preferred study destination.","There are two sources of benefit for students in the UK. International students who are studying in the UK for 6 months or more qualify for free health care through the National Health Service. The National Union of Students also helps students get many discounts on things like books, stationery, food, clothes, travel and entertainment. All the students are entitled to free NUS membership."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_education_system",
+    "patterns":["what is the education system of uk?","what are the courses in uk?","what is the education system of london?","what are the courses in london?"],
+    "responses":["The UK is home to number of high quality education institutions. Education here is largely financed by the government, so apart from a few private players higher education is largely quite affordable. The UK houses some of the oldest universities in the world, like Oxford and Cambridge among many others. From modern classrooms to the well-equipped laboratories, the colleges here lack for nothing.\n\nThe bachelor’s degree in the UK typically goes on for three years, there are, however, vocational or foundational degrees that can go on for about two years. Many universities offer courses in science, technology, engineering and maths (STEM) related subjects. There are also courses that are known as sandwich courses which last for four years and have one year to spend in the workplace. Post graduate courses can typically last for a year, however, research based courses may take up to 2 years. Doctorate degrees can usually last for up to three years. \n\nThe UK has one of the most convenient and easy admission and visa process. The cost of living is also not too high. There is ample practical learning and internships which are designed to make the students confident in their own abilities. The UK education system is designed to ensure that each student graduating is an expert in their chosen subject."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_application",
+    "patterns":["how can i apply for uk study?","what are the requirement for study in uk?","how can i apply for london study?","what are the requirement for study in london?"],
+    "responses":["The main intake dates for admissions to the UK are September to October and January to February, but a majority of the universities offer the former. Undergraduate students apply provided they have the following conditions fulfilled:\nMore than 65% for humanities in the 12th\n70-80% or above for science, commerce and engineering diploma students\nSome universities can also accept 2nd class provided one has additional qualifications and/or experience. There are also foundation courses and diploma programs for students who have scored below 60%\nThe applying student must be 18 or above\nStudents applying for post graduate courses need to fulfil the following conditions:\nMasters and research courses usually require the student to have secured 60% or above in their first degree\n55% and above are also accepted by some management programs provided the GMAT scores are between 600-700\nWork experience of 2 to 4 years (full-time) may also be required by some universities for their MBA programs\nA minimum age criterion of 25 years is mandatory for all post graduate course\n\nLanguage proficiency is another important factor for securing admission in a university in the UK. A student needs to secure at least 6.5 bands in their IELTS for an undergraduate course, or 7.0 for a post graduate course. A TOEFL score of 80 for undergraduates and 90 for post graduate courses is also accepted. There are, however, exemptions, provided a student has secured above 70% in their tenth and twelfth standard examinations with English as the medium of instruction through school and college.\n\nThere are a number of documents that need to be in order before the applications can begin. One needs to have attested copies of mark sheets for standards tenth, twelfth and all the years of the bachelor degree. There need to be at least 2 academic reference letters from your most recent professors. A student will also need to have work recommendation from the employer who knows you well and can comment on your professional abilities. Over and above this one needs to have in order their statement of purpose, resume and the score reports of GMAT/IELTS/TOEFL. The portfolio also plays a big role for students applying for design and architecture courses. Achievement certificates in sports of co-curricular activities at the national level are also well-received.\n\nWhen you are applying for your undergraduate degree, one needs to apply only through UCAS. It needs to be kept in mind that only one application can be made per year. The application can be made online and you can apply to five universities through one form. The final deadlines for most applications at Oxford and Cambridge are 15th of October.\n\nThe arts and humanities deadlines are 24th March. Other programs have two deadlines, 15th of January, and the final deadline, 30th June. It is always better to err on the side of caution and send in your application by the first deadline. Sandwich programs usually last for 4 years, the last year of this course is usually a work experience year. Those applying for foundation courses need to know that they usually last for a year. For post graduate courses universities do not usually have deadlines, but it is always advisable to apply 6 to 8 months in advance. The application forms can be picked up at the Rao Consultants offices for free. The UK is one of the most sought after destination for MBA programs."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_cost",
+    "patterns":["what will be the minimum cost for study in uk?","what will be the cost of expenses in uk?","what will be the minimum cost for study in london?","what will be the cost of expenses in london?"],
+    "responses":["For international students universities often set their own fees which vary according to course and the institution offering them. Average costs vary in the range of 10,000 to 12,000 pounds for undergraduate degrees and 10,000 to 18,000 for post graduate degrees. Degrees in humanities and social sciences tend to cost far lower than courses focusing on laboratory work or clinical degrees.\n\nUK visa requirements stipulate that a student must have 1,015 pounds in their bank accounts for every month they are to study there. If you are to live in a larger metropolis like London your cost of living will also increase considerably. However, places like Cardiff, Aberdeen in Scotland, and Durham are far more affordable in terms of cost of living. \n\nRent and food are two of the biggest expenses when living in the UK. Rent prices in larger cities are some of the highest in the world. The National Student Accomodation Survey of 2017 found that students spent an average of 125 pounds on rent every week. The regional variations, however, are quite drastic. Students in Northern Ireland spend about 91 pounds every week, half of what someone in London, may be spending. Food will cost you about 30 pounds every week, and a meal in a diner or a restaurant may run up to 12 pounds. Phone bills, utilities, and other ancillary costs every month will also pad up your education and living bill to a great extent."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_student_visa",
+    "patterns":["student visa for study in uk?","student visa for study in london?"],
+    "responses":["If you are applying to the UK for a short term course like a language course or a vocational course you will need to apply for a short-term study visa. Through this visa you can stay in the UK for 6 months, provided you are 16 years or older in age. If you are taking an English language course you are eligible to stay for 11 months, the age criterion applies in this case as well. \n\nIf you are between 4 and 16 years of age, and you want to study at an independent school in the UK, you need to apply for a Tier 4 (child) visa. This visa stipulates that you have a confirmed place at the course of your choice, have a consent from your parent or guardian, have enough money to cover your course and fees and meet the other eligibility criterion. You can apply for this visa 3 months before you begin your course and the decision takes about 3 weeks. You can arrive one week before your course begins, provided your course lasts for six months and a month in advance if your course lasts longer than six months. This course does not allow you to study at a local authority-funded college or a further education college. \n\nIf you are 16 years or older and are applying to higher education courses you need a Tier 4 (general) visa. This visa follows pretty much similar conditions as the child visa, but has some basic differences. This visa allows you to work in most jobs, depending upon the level of your course and the type of sponsor you have. This visa does not allow you to study at a local authority-funded school."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_employment",
+    "patterns":["work in uk after study?","job in uk?","work in london after study?","job in london?"],
+    "responses":["International students working in the UK get work rights for about 20 hours a week when their course is going on and can work full time during vacations. Students stand to earn 5 to 7 pounds per hour when working 20 hours a week, which comes to 400-560 pounds. Part time jobs are widely advertised in newspapers and other online sources. One can also look for jobs on campus as they are the most easily available. Career cells at your college or university can also be a great help in landing you a job. If you are going to study to the UK for six months you need to get a permission from the Entry Clearance Officer before you work. \n\nFor those looking to work full time in the UK there is a point based system that they need to clear. Students that are graduating from a UK university can get a job with a registered company. Students are allowed to stay back for four months after their course is over to secure a graduate employment. The companies are mandated to pay a minimum of 20,000 pounds a year and the work visa lasts for 3 years. There is a possibility of extending that visa for another 3 years or more."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_refund",
+    "patterns":["Do I get a refund if my visa is refused?","can I get a refund?"],
+    "responses":["If you are refused a visa the university that is accepted, in most cases, will give you a refund on the deposit that you have paid in advance. To get your deposit back, however, you will need to send the university a copy of your visa refusal letter. Some institutions may deduct a 100 pounds as processing fee for the refund."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_deposit_required",
+    "patterns":["Is a deposit required?","deposit is required?"],
+    "responses":["There are some universities that require the students to pay a part of the tuition fees in advance to reserve a place for them at the university. Paying a deposit can also facilitate you getting a visa and is important that you pay it."],
+    "context":[""]
+  },
+  {
+    "tag":"uk_university_ranking",
+    "patterns":["What is the rating of the universities?","university ranking"],
+    "responses":["There is no formal ranking system for universities in the UK, the government, however, does take responsibility to monitor and control the quality of education. The teaching facilities of each institution is under the purview of the Quality Assurance Agency for Higher Education. The government also conducts a Research Assessment Exercise once in every 5 years. This determines the level of research activity in each university department. The departments are graded as high as 5 and as low as 1. A prospective student can also check the General League Tables prepared by newspapers like Sunday Times and Financial Times."],
+    "context":[""]
+  },
+
+
+  {
+    "tag":"aus_study",
+    "patterns":["why study in australia?","australia is good for study?","should I select australia for study?"],
+    "responses":["The country of kangaroos offers some of the best courses available in the world. Well-renowned around the world, the universities in Australia are sought after for a variety of reasons. The courses, for starters, are well-updated with all the latest innovations and research. This makes the student graduating from these courses particularly well-equipped to join the work force. Australia regularly ranks as the third most popular country for students after USA and the UK. \n\nThe most attractive feature of Australian education, after the obvious quality consciousness, is the sheer affordability of it. The country has far lower living expenses than the US and the UK and still maintains a high standard of living. The country has the lowest cost of education when compared to the cost of living. This is largely due to the country’s robust economy. The Australian higher education system also offers a diverse range of courses and degrees to choose from. There is a choice between universities, vocational courses, and language training for students. \n\nAustralia ranks right up there when it comes to the sheer quality of scientific research they offer. The country stands right at the forefront of technological achievements and breakthroughs. Universities here have some amazing resources for students who are looking to pursue research based courses. Vocational courses offered by Technical and Further Education (TAFE) institutes are highly regulated and meet international standards regularly. \n\nCourses in tourism, hospitality, sports, management, science and technology, engineering, horticulture, English and health are widely opted for by students. Universities and governments also offer a number of scholarships and grants for meritorious students as well. Over and above private education institutes there are 39 or more registered universities in Australia. This provides students a wide array of education options to choose from. "],
+    "context":[""]
+  },
+  {
+    "tag":"aus_education_system",
+    "patterns":["what is the education system of australia?","what are courses in australia?"],
+    "responses":["There are a number of reasons why Australia ranks highly on the list of Indian students. Here’s why:\nAustralian universities accept Indian 12+3 qualifications making it easier for masters aspirants to apply.\nThe duration of masters courses are usually quite short and can go on for 1, 1,5 to 2 years.\nThe costs of tutions are way more competitive unlike other developed countries like the US and the UK.\nThe Australian education standards are recognized and accepted around the world.\nThey provide high standards of education along with good research facilities with cutting edge equipment.\nThe visa process to be followed is straight, simple and easy to understand.\nThere are almost 70,000 Indian students studying in Australia and the number is rising every year.\nAustralian universities are recognized the world over for their adherence to international standards and academic staff are recruited internationally.\nGraduates and academics from Australian institutions are recruited around the world and this is just one of the many indicators of the quality of education provided by them.\nThe country’s organisations follow the ESOS act to protect the interests of overseas students.\nThe country has a strong economy, agreeable climate and a stable government."],
+    "context":[""]
+  },
+  {
+    "tag":"aus_application",
+    "patterns":["how can i apply for australia study?","what are the requirement for study in australia?"],
+    "responses":["There are mainly two intakes for colleges and universities in Australia – February and July. Some universities also offer intakes in September and November as well, but most universities have their intakes focused around February and July. For those aspiring to apply to courses in Australia application processes need to start at least eight months beforehand. The universities usually take about 4-6 months to process the applications and it is ideal that you apply at the earliest. \n\nApplications usually need a resume, statement of purpose, marksheets, and passing certificates from the 10th standard onwards. The student must also provide two reference letters from their last college and/or employer along with a copy of their passport and birth certificate. For post graduate courses a degree, of three years or more, from a recognised university is mandatory.\n\nLanguage scores are another hurdle that needs to be successfully managed for aspiring students.  A minimum sore of 6 for IELTS usually tends to work for Australian universities for under graduate courses, those scoring less may need to enrol for English courses. Post graduate courses usually need 6.5 bands in their IELTS and a sound academic record over and above work experience proofs. \n\nGetting started on your application early is a key to getting admission in the course and university that you desire. The most important reason for this being a rush for admissions for courses in the island nation. The Rao Consultants helps ensure that you have all the necessary documentation for your application worked out and in hand on time to apply to your course and university of choice."],
+    "context":[""]
+  },
+  {
+    "tag":"aus_cost",
+    "patterns":["what will be the minimum cost for study in australia?","what will be the cost of expenses in australia?"],
+    "responses":["Australia is one of the most affordable destinations to study in the world, provided you choose the right course and university. English language courses can cost up to $300 per week, and the course length can vary. \n\nVocational and Education Training  (VET) courses usually range between $4000 to $22,000 per year depending upon the course and institute you choose. Technical and Further Education (TAFE) courses also fall in the same bracket. A diploma degree can cost $12,000 to $18,000 per annum. An undergraduate degree can cost you something between $15,000 to $33,000 per year while a post graduate masters degree can set you back by $20,000 to $37,000 per year. \n\nOver and above this there are the obvious costs of living that need to be considered. In this context the location where one lives plays a huge role. For example, Sydney is far more expensive a location than Canberra. Food costs can vary largely from $80 to $280 per week while a car maintenance and fuel can cost from $150 to $260 after purchasing it. Ancillary expenses can range from $60 to $250 per week."],
+    "context":[""]
+  },
+  {
+    "tag":"aus_student_visa",
+    "patterns":["student visa for study in australia?","student visa for study in australia?"],
+    "responses":["To be eligible for student visas one must be enrolled in a course that has a duration ranging between 10 to 52 weeks. One must be 18 years and above to apply for a student visa to Australia. A student visa allows you to work for 40 hours for every fortnight. Students who have just concluded their post graduate degree can apply for a 2 year work visa. This visa allows students to work for two years after their post graduate degree and gain work experience in an Australian company. \n\nIt is important to note that the duration of your student visa will revolve around the length of your course. If you are enrolling in a 6-month course your student visa will last for 6 months, if you enrol for a 3-year course your visa will run its course in 3 years. Courses that are less than 10 months long earn a visa with a month extra. While visas for courses more than 10 months grand two extra months. If, however, your course ends in December you can earn yourself three extra months on your visa. \n\nThe fees for a student visa to Australia is $560, the price always remains the same regardless of the duration of your course. If you are enrolled in a course associated with CRICOS (Commonwealth Registration of Institutions and Courses for Overseas Students) you can renew your student visas as many times as you want."],
+    "context":[""]
+  },
+  {
+    "tag":"aus_employment",
+    "patterns":["work in australia after study?","job in australia?"],
+    "responses":["A student, while the classes are in session, can work for 40 hours every two weeks and can work full time when the breaks are on. In order to work while you study you need to have a student visa with work permission. Since 2008, student visas come equipped with a permission to work with their visa. In order to open a bank account in Australia one needs a Tax File Number and it works like the social security number in the US. \n\nOnce a student starts working after their graduation there are a variety of ways that they can apply for a PR in Australia. They can apply for a Provisional Skilled (regional sponsored) Visa, Permanent Skilled (independent) Visa, or a Permanent Skilled (sponsored) visa. They can even apply for an employer sponsored visa at any point of time to cement their case for a citizenship. \n\nIf you are looking for a job after your course it is important that you start searching for jobs a few months in advance. Try and get as much help and support from your guidance counsellor as you can. Try and apply in as many places as you can find and keep your resume updated and ordered in the fashion most appropriate to the country. The average pay for student visa holders is anything from $10 to $15 per hour."],
+    "context":[""]
+  }
+
+  ]
+}
